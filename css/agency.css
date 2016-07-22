@@ -6,34 +6,40 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color:#D3CBA7;
-
+    font-family: Georgia, Helvetica, Arial, sans-serif;
+    background-color: #D3CBA7;
 }
+
+.sponsors {
+    text-align: center;
+}
+
 #logo {
     width: 80%;
 }
 
-
 .services {
-   
-    background-image:url(../img/festival.jpg);
+    background-image: url(../img/festival.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     height: 400px;
     width: 100%;
 }
-#about{
+
+#about {
     background-color: #EEEEEE;
 }
-#team{
+
+#team {
     background-color: #d5d5d5;
 }
-#elip{
+
+#elip {
     background-color: #d3cba7;
 }
-#festinfo{
+
+#festinfo {
     background-color: #d3cba7;
 }
 
@@ -79,7 +85,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Georgia, Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -99,7 +105,7 @@ h6 {
     color: white;
     background-color: #fed136;
     border-color: #fed136;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Georgia, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -148,7 +154,7 @@ fieldset[disabled] .btn-primary.active {
     color: white;
     background-color: #fed136;
     border-color: #fed136;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Georgia, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 3px;
@@ -220,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-toggle {
     background-color: #fed136;
     border-color: #fed136;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Georgia, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     color: white;
     font-size: 12px;
@@ -232,9 +238,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-custom .nav li a {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 1px;
     color: white;
 }
@@ -306,7 +312,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Droid Serif", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 22px;
     line-height: 22px;
@@ -314,7 +320,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Georgia, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 50px;
@@ -328,14 +334,14 @@ header .intro-text .intro-heading {
         padding-bottom: 200px;
     }
     header .intro-text .intro-lead-in {
-        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Droid Serif", Helvetica, Arial, sans-serif;
         font-style: italic;
         font-size: 40px;
         line-height: 40px;
         margin-bottom: 25px;
     }
     header .intro-text .intro-heading {
-        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: Georgia, Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         font-weight: 700;
         font-size: 75px;
@@ -356,7 +362,7 @@ section h2.section-heading {
 
 section h3.section-subheading {
     font-size: 16px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Droid Serif", Helvetica, Arial, sans-serif;
     text-transform: none;
     font-style: italic;
     font-weight: 400;
@@ -435,7 +441,7 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Droid Serif", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 16px;
     margin: 0;
@@ -696,7 +702,7 @@ section#contact .form-control:focus {
 }
 
 section#contact::-webkit-input-placeholder {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Georgia, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #eeeeee;
@@ -704,7 +710,7 @@ section#contact::-webkit-input-placeholder {
 
 section#contact:-moz-placeholder {
     /* Firefox 18- */
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Georgia, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #eeeeee;
@@ -712,14 +718,14 @@ section#contact:-moz-placeholder {
 
 section#contact::-moz-placeholder {
     /* Firefox 19+ */
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Georgia, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #eeeeee;
 }
 
 section#contact:-ms-input-placeholder {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Georgia, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #eeeeee;
@@ -736,7 +742,7 @@ footer {
 
 footer span.copyright {
     line-height: 40px;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Georgia, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     text-transform: none;
 }
@@ -744,7 +750,7 @@ footer span.copyright {
 footer ul.quicklinks {
     margin-bottom: 0;
     line-height: 40px;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Georgia, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     text-transform: none;
 }
@@ -803,7 +809,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Droid Serif", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 16px;
 }
