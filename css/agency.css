@@ -10,6 +10,30 @@ body {
     background-color: #D3CBA7;
 }
 
+
+/*------------------------------------------------------------------------------------------------*/
+
+.fixed-background {
+    background-image: url(../img/header-bg.jpg);
+    background-size: 100%;
+}
+
+.fixed-background {
+    height: 800px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 0;
+}
+
+.background2 {
+    height: 400px;
+    background-image: url(../img/festival.jpg);
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+
 .sponsors {
     text-align: center;
 }
@@ -293,18 +317,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-header {
-    background-image: url('../img/header-bg.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    text-align: center;
-    color: white;
-}
+header {}
 
 header .intro-text {
     padding-top: 100px;
