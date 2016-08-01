@@ -10,6 +10,11 @@ body {
     background-color: #D3CBA7;
 }
 
+#home {
+    background-image: url(../img/header-bg.jpg);
+    background-size: contain;
+}
+
 
 /*------------------------------------------------------------------------------------------------*/
 
@@ -29,6 +34,50 @@ body {
 .background2 {
     height: 400px;
     background-image: url(../img/festival.jpg);
+}
+
+.collapsing2 {
+    position: relative;
+    height: 0px;
+    overflow: hidden;
+    padding: 0;
+    -webkit-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -webkit-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s;
+    -webkit-transition-property: height, visibility, padding-top, padding-bottom;
+    -o-transition-property: height, visibility, padding-top, padding-bottom;
+    transition-property: height, visibility, padding-top, padding-bottom;
+}
+
+.azzz {
+    height: 1000px;
+}
+
+.azzz2 {
+    height: inherit;
+}
+
+.azzzc {
+    height: 0;
+}
+
+.nonono {
+    min-height: 5px;
+}
+
+#nonono,
+#nonono3,
+#nonono5 {
+    background-color: #123456;
+}
+
+#nonono2,
+#nonono4,
+#nonono6 {
+    background-color: #f18e30;
 }
 
 
@@ -59,13 +108,9 @@ body {
     background-color: #d5d5d5;
 }
 
-#elip {
-    background-color: #d3cba7;
-}
+#elip {}
 
-#festinfo {
-    background-color: #d3cba7;
-}
+#festinfo {}
 
 .text-muted {
     color: #777777;
@@ -288,6 +333,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media (min-width: 768px) {
+    section,
+    azzz,
+    azzz2 {
+        padding: 150px 0;
+    }
     .navbar-custom {
         background-color: transparent;
         padding: 25px 0;
@@ -363,7 +413,9 @@ header .intro-text .intro-heading {
     }
 }
 
-section {
+section,
+.azzz,
+.azzz2 {
     padding: 100px 0;
 }
 

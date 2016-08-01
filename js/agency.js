@@ -1,4 +1,4 @@
-// Agency Theme JavaScript
+ Agency Theme JavaScript
 
 (function($) {
     "use strict"; // Start of use strict
@@ -10,6 +10,7 @@
             scrollTop: ($($anchor.attr('href')).offset().top - 50)
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
+       
     });
 
     // Highlight the top nav as scrolling occurs
@@ -30,4 +31,4 @@
         }
     })
 
-})(jQuery); // End of use strict
+})(jQuery);// End of use strict
