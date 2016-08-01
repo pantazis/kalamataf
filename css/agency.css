@@ -14,6 +14,10 @@ body {
     background-image: url(../img/header-bg.jpg);
     background-size: contain;
 }
+.tranc{
+    transition: opacity 1s;
+    opacity: 1;
+}
 
 
 /*------------------------------------------------------------------------------------------------*/
@@ -34,6 +38,13 @@ body {
 .background2 {
     height: 400px;
     background-image: url(../img/festival.jpg);
+}
+.titlebox{
+    border-radius: 15px;
+background-color: rgba(0,0,0,0.5);
+text-align: center;
+    color: #aaa;
+    
 }
 
 .collapsing2 {
@@ -88,7 +99,7 @@ body {
 }
 
 #logo {
-    width: 80%;
+    width: 100%;
 }
 
 .services {
@@ -393,7 +404,7 @@ header .intro-text .intro-heading {
 
 @media (min-width: 768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 100px;
         padding-bottom: 200px;
     }
     header .intro-text .intro-lead-in {

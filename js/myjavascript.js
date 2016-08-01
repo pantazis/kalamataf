@@ -1,8 +1,47 @@
+/*-----------------------------------------scroll title-------------------------------------------------------------------*/
+
+function scrold() {
+    var TITLE = document.getElementById("title");
+    if (window.scrollY > 1000) {
+        
+       TITLE.style.opacity = "0";
+       TITLE.addEventListener("transitionend", function () {
+           if(window.scrollY > 1000){
+           TITLE.style.display="none";
+           }
+       });
+    } else {
+        TITLE.style.display = "block";
+        if(window.scrollY < 950){
+     TITLE.style.opacity = "1";};
+       
+        
+       
+    }
+
+
+};
+
+function scrolling() {
+    var windowh = window.innerWidth;
+    if (windowh > 768) {
+        window.addEventListener('scroll', scrold, true);
+        document.getElementById("title").style.position = "fixed";
+
+
+    } else {
+        document.getElementById("title").style.position = "absolute";
+    }
+};
+
+/*------------------------------------------------------------------------------------------------------------*/
 window.onload = function () {
-    resize()
+    resize();
+    scrolling();
 };
 window.onresize = function () {
-    resize()
+    resize();
+    scrolling();
 };
 
 function resize() {
@@ -35,38 +74,20 @@ function myFunction(e) {
         var linklist = ["About", "Φεστιβαλ", "Προγραμμα", "Kαλιτεχνες"];
         var linktar = ["elip", "services", "about", "team"];
         for (var i = 0; i < linklist.length; i++) {
-            console.trace();
             if (oti == linklist[i]) {
-                
                 var hita = linktar[i];
                 var x = document.getElementById(hita);
-
                 x.classList.add("azzz");
                 x.addEventListener("transitionend", function () {
                     if (x.classList.contains("azzz")) {
                         console.log(x);
-
                         x.classList.add("azzz2");
                         x.classList.remove("azzz");
-
                     };
-
                     // x.classList.add("azzz2");
-
-
-
                 }, false);
-
-
-
-
-
-
             } else if (document.getElementById(linktar[i]).classList.contains("azzz2") || document.getElementById(linktar[i]).classList.contains("azzz")) {
-                 document.getElementById(linktar[i]).classList.remove("azzz");
-                
-
-
+                document.getElementById(linktar[i]).classList.remove("azzz");
                 document.getElementById(linktar[i]).classList.remove("azzz2");
             };
         };
@@ -88,7 +109,9 @@ function myFunction(e) {
                 */
     };
 };
-document.getElementById("logo").onclick = function(){document.getElementById(1).click();};
-document.getElementsByClassName("btn-xl")[0].onclick = function(){document.getElementById(2).click();};
-console.dir(window);
-
+document.getElementById("logo").onclick = function () {
+    document.getElementById(1).click();
+};
+document.getElementsByClassName("btn-xl")[0].onclick = function () {
+    document.getElementById(2).click();
+};
